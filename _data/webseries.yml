@@ -1,0 +1,200 @@
+- title: "Uncertain Surface Reconstruction"
+  speaker: Silvia Sellán
+  speaker_image: silvia.jpeg
+  institution: PhD student, University of Toronto
+  description: 
+  summary: "We propose a method to introduce uncertainty to the surface reconstruction problem. Specifically, we introduce a statistical extension of the classic Poisson Surface Reconstruction algorithm for recovering shapes from 3D point clouds. Instead of outputting an implicit function, we represent the reconstructed shape as a modified Gaussian Process, which allows us to conduct statistical queries (e.g., the likelihood of a point in space being on the surface or inside a solid). We show that this perspective improves PSR's integration into the online scanning process, broadens its application realm, and opens the door to other lines of research such as applying task-specific priors."
+  date: 3
+  month_year: Mar, 2023
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Seeing Beneath the Skin with Computational Photography"
+  speaker: Daniel McDuff
+  speaker_image: Daniel_McDuff.jpg
+  institution: Staff Research Scientist, Google and Affiliate Professor, University of Washington
+  description:
+  summary: "For more than two decades, telehealth held the promise of greater access to healthcare services in the home but remained as a niche opportunity due to a combination of regulatory, economic, and cultural barriers that prevented the expansion and innovation of digital health services. The SARS-CoV-2 pandemic promoted a rapid and explosive growth of online services that provided an effective mechanism for safely providing care without risk of exposure. Remote patient monitoring is now gaining adoption and new physiological and medical imaging modalities that leverage recent advances in computational photography are emerging. These methods use everyday sensors to non-invasively inspect and measure the internal state of the body. I will present research on physiological and behavioral measurement via ubiquitous hardware, and highlight approaches that capture multimodal signals (e.g., facial and motor movements, heart rate and HRV, respiration, blood pressure) without contact with the body. I'll show examples of state-of-the-art, on-device neural models and a synthetics data pipeline to help us learn more robust representations and achieve performance close to that of contact sensors. Following this, I will give examples of novel human-computer interfaces that leverage these signals to improve health, wellbeing and communication."
+  date: 3
+  month_year: Feb, 2023
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Computational Imaging of the Black Hole at the Center of our Galaxy"
+  speaker: Aviad Levis
+  speaker_image: aviad.jpg
+  institution: Postdoctoral scholar, Caltech
+  description:
+  summary: "The Event Horizon Telescope (EHT) is a unique computational camera with a goal of imaging the glowing fluid surrounding supermassive black holes. In May of 2022, the EHT collaboration revealed the first images of the black hole at the center of our galaxy: Sagittarius A* (Sgr A*). These images were computationally reconstructed from measurements taken by synchronized telescopes around the globe. Imaging Sgr A* was challenging due to its evolution, which is dynamic on the timescale of acquisition. The test our imaging pipelines in a challenging, realistic setting we developed stochastic dynamic models that mimic EHT observations of Sgr A*. While images certainly offer interesting insights, looking toward the future, we are developing new computational algorithms that aim to go beyond a 2D image. For example, could we use EHT observations to recover the dynamic evolution or even the 3D structure? In this talk, I will highlight new and exciting prospects for the future of black-hole imaging. By peeling away different layers of the underlying physics, we show how computational algorithms could shed light on complex dynamic processes. Our hope is that in the not-too-distant future, they will enable scientific discovery and even provide a glimpse into the very nature of space-time itself in our galaxy's most extreme environment."
+  date: 2
+  month_year: Dec, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Computational Imaging: Chloroplasts to Tree Canopies"
+  speaker: Regina Eckert
+  speaker_image: regina.jpg
+  institution: Postdoctoral researcher, JPL
+  description:
+  summary: "Computational imaging is both a highly abstract and extremely detailed field. From 40,000 feet, we formulate how sensing hardware and imaging software can work together optimally. But if we zoom in, each application space and sensing task will demand unique computational imaging solutions. In this talk, I’ll discuss two computational imaging problems I’ve encountered in two very different domains. First, I’ll talk about 3D quantitative refractive index imaging of microscopic phase objects. I will introduce a novel microscope design with increased measurement diversity to improve the 3D imaging system. Second, I’ll discuss remote sensing imaging spectroscopy, or hyperspectral imaging, for Earth science applications. I’ll show how leveraging atmospheric smoothness can enable us to better image surface properties of the Earth. I will then discuss the commonalities I’ve seen in computational imaging across scales and applications, and how we might improve our computational imaging frameworks for chloroplasts to tree canopies and everything in between."
+  date: 4
+  month_year: Nov, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Rethinking Supervision for Some Vision Tasks"
+  speaker: Alex Wong
+  speaker_image: alex_wong.jpeg
+  institution: Assistant Professor, Yale University
+  description:
+  summary: "Deep neural networks are highly parameterized functions that have seen empirical successes across a number of computer vision tasks. Due to their size, they require tens of thousands to millions of training examples, which typically come in the form of an image or images and human annotated ground truth. Curating vision datasets, in general, amounts to numerous man-hours; tasks like depth estimation requires an even more massive effort. In this talk, I will introduce alternative forms of supervision that leverage geometric constraints, synthetic data, or the abundance of pretrained models available online for depth estimation, which has traditionally relied largely on expensive manual labeling. I will show that doing so can lead to smaller and much faster models that are comparable in performance to state-of-the-art methods trained on human annotated ground truth. I will also discuss single image deraining, which unlike most vision tasks, have traditionally relied on synthetic data for supervision – this is largely due to the intractability of collecting the ideal image and ground truth pair for learning to remove rain. I will introduce another notion of “ground truth”, which enables us to collect a large scale dataset of real data, that does not suffer from the sim2real gap, and conclude with an invitation to participate in a sponsored challenge centered around the dataset."
+  date: 7
+  month_year: Oct, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Imaging, Fast and Slow: Computational Imaging for Sensing High-speed Phenomena"
+  speaker: Mark Sheinin
+  speaker_image: mark.jpg
+  institution: Postdoctoral Research Associate, Carnegie Mellon University
+  description:
+  summary: "The world is full of phenomena that are either too fast or too minute for our eyes to observe. Moreover, despite recent advances in sensor technologies, most cameras are just as blind to these phenomena as our eyes. One reason for this limitation is that capturing high-speed video at high-spatial resolutions is fundamentally challenging. Computational imaging is an exciting field that allows us to build novel vision systems that can capture these high-speed phenomena, consequently revealing additional hidden information about our environments. In this talk, I will cover three projects using computational imaging to sense various fast phenomena. First, I will describe the ACam - a camera designed to capture the minute flicker of artificial lights ubiquitous in our modern environments. I will show that bulb flicker is a powerful visual cue that enables various applications like scene light source unmixing, reflection separation, and remote analyses of the electric grid itself. Second, I will describe Diffraction Line Imaging, a novel imaging principle that exploits diffractive optics to capture sparse 2D scenes with 1D (line) sensors. The method's applications include fast motion capture and structured light 3D scanning with line illumination and line sensing. Lastly, I will present a novel method for sensing minute high-frequency surface vibrations (up to 63kHz) for multiple scene sources simultaneously, using \"slow\" sensors rated for only 130Hz operation. Applications include capturing vibration caused by audio sources (e.g., speakers, human voice, and musical instruments) and analyzing the vibration modes of objects."
+  date: 2
+  month_year: Sept, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Shady business: Occluder-aided Non-Line-of-Sight Imaging"
+  speaker: Charles Saunders
+  speaker_image: charles.jpg
+  institution: Postdoc Research Scientist, Meta
+  description:
+  summary: "Non-line-of-sight (NLOS) imaging involves the reconstruction of scenes that are not directly visible to the observer. Typically, this is based upon measurements of light originating or returning from the scene that has then scattered from a diffuse reflector (such as a wall) towards the observer. The results of NLOS imaging range from the recovery of 2D photograph-like images of a hidden area, to determining the position, motion or number of hidden objects, to 3D reconstructions of a hidden space. In this talk, I will discuss two rather different NLOS imaging methods that we have developed: Computational Periscopy, and Edge-Resolved Transient Imaging. Although the methods differ greatly in their aims and mechanisms, they still share a common thread: the opportunistic use of occluders (objects that block light) that are ubiquitous to the spaces around us. "
+  date: 5
+  month_year: Aug, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Computational Interferometry"
+  speaker: Alankar Kotwal
+  speaker_image: kotwal.jpeg
+  institution: PhD candidate, Carnegie Mellon University
+  description:
+  summary: "Optical interferometry is a technique that uses the wave-optics phenomenon of interference caused by the superposition of two or more light waves to measure the properties of the waves or of the scenes they interact with. Due to its capability to resolve micron-scale displacements, interferometry has found applications in physics, biomedical imaging, and precision fabrication. We introduce a class of new interferometric techniques, collectively called computational interferometry, that allows combining these capabilities with precise, micron-scale control on the set of light paths imaged by the camera in the scene of interest. We show how to design and build prototype optical systems to implement computational interferometry specialized to a few application settings: imaging through scattering and micron-scale 3D shape acquisition. We further show how computational interferometry allows us to perform these tasks robustly to adverse environmental conditions such as global illumination, ambient lighting, and environment mechanical noise. Lastly, we showcase an interferometric system that enables passive time-of-flight imaging using only sunlight as a light source, with micron-scale depth reconstructions captured in uncontrolled outdoor environments with an interferometer built on an ordinary utility cart. Our computational interferometry techniques find applications in seeing through scattering media such as tissue, inspection, and precision manufacturing."
+  date: 1
+  month_year: July, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Bio-inspired depth sensing using computational optics"
+  speaker: Qi Guo
+  speaker_image: qi_guo.jpeg
+  institution: Assisstant Professor, Purdue University
+  description:
+  summary: "Computational visual sensing combines efficient computation and novel optics to provide computer vision systems that minimize size, weight, and power while maximizing speed, accuracy, and functionality. In these systems, signals are processed both optically and electronically, using the strengths of each to maximally exploit the visual characteristics of an environment. Computational visual sensors are often inspired by nature, where invertebrates and other small animals have evolved with optics and neural wirings that synergize to perceive with extremely small size and power. In this talk, I will present a class of small computational sensors for passively measuring depth.  They are inspired by the eyes of jumping spiders, which have specialized, multi-layered retinae and sense depth using optical defocus. We make three main contributions in inventing these sensors. First, we propose a novel, physics-based depth cue leveraging differential changes of image defocus. The depth cue takes the form of a simple analytical expression and is robust to optical non-idealities. Second, we incorporate the physics-based depth cue into the design of a neural network, which yields an efficient computational graph that predicts per-pixel depth and confidence at below 700 floating-point operations (FLOPs) per output pixel. Third, we designed two optical setups to pair with the computation. One setup consists of a deformable lens and has an extended working range due to its ability to perform optical accommodation. The other uses a specially-designed metasurface, which is an ultra-thin, flat nanophotonic device with versatile wavefront shaping capability. It is one of the world’s first nanophotonic depth sensors. Both setups are monocular and compact, and both can measure scene depth at 100 frames per second. Our computational depth sensors are one example of how optics and computation will evolve in the future to achieve artificial visual sensing on tiny platforms where vision is currently impossible."
+  date: 3
+  month_year: June, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Video denoising in starlight using a learned, physics-informed noise model"
+  speaker: Kristina Monakhova
+  speaker_image: 06955867-F2F2-4B91-A3F4-CEC58A3BE933.png
+  institution: PhD Candidate, UC Berkeley
+  description:
+  summary: "Some animals, such as hawkmoths and carpenter bees, can effectively navigate on the darkest moonless nights by the light of the stars (< 0.001 lux), whereas our best CMOS cameras generally require at least 3/4 moon illumination (> 0.1 lux) to image moving objects at night. Videography on moonless, clear nights is extremely challenging due to low photon counts. Long exposures can be used, but precludes the imaging of moving objects. Alternatively, higher gain can make pixels more sensitive to light, but leads to increased noise which is often non-Gaussian, sensor-specific, and difficult to model or characterize. Off-the-shelf denoisers which assume Gaussian noise often fail in these low light, high gain regimes due to this structured noise. In this work, we present a learned, physics-informed noise model which, after training, can more accurately synthesize camera noise at the lowest light and highest gain settings. Using our noise model, we train a video denoiser using a combination of synthetic noisy video clips and real still images. We capture a 5-10 fps video dataset with significant motion on a moonless, clean night with no active illumination (0.6-0.7 mililux). Using our video denoiser, we demonstrate photorealistic video denoising in starlight (< 0.001 lux) for the first time."
+  date: 6
+  month_year: May, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Computational imaging with multiply scattered photons"
+  speaker: Adithya Pediredla
+  speaker_image: AdithyaPediredla.jpeg
+  institution: Project Scientist, Carnegie Mellon University
+  description:
+  summary: "Computational imaging has advanced to a point where the next significant milestone is to image in the presence of multiply-scattered light. Though traditionally treated as noise, multiply-scattered light carries information that can enable previously impossible imaging capabilities, such as imaging around corners and deep inside tissue. The combinatorial complexity of multiply-scattered light transport makes it necessary to use increasingly complex imaging systems to make imaging with multiply-scattered light feasible; examples include time-of-flight, structured-light, and acousto-optic imaging systems. The combined complexity of physics and systems makes the optimization of imaging of multiply-scattered light a challenging, high-dimensional design problem. In my research, I utilize graphics and physics-based rendering to explore this complex design space and create imaging systems that optimally sense multiply-scattered light. I will show two examples of this approach. First, I will discuss how to develop rendering tools for time-of-flight cameras, and how to use these tools to design and build optimal time-of-flight systems for non-line-of-sight imaging. Second, I will discuss how to simulate continuously-refractive radiative transfer and use such simulations to optimize acousto-optic systems for imaging inside tissue and other scattering media."
+  date: 1
+  month_year: April, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Utilizing Nature’s Limits for better Computational 3D Imaging"
+  speaker: Florian Willomitzer
+  speaker_image: FWillomitzer_compressed_squared.jpg
+  institution: Research Assistant Professor, Northwestern University
+  description:
+  summary: "Computational 3D imaging and 3D display principles are ‘enabling technologies’ that have the potential to foster transformational technical changes in the next decades. The list of possible future applications scenarios is long: Novel breeds of cameras could see through tissue, fog, or around corners. Portable medical 3D imaging and 3D display devices could effectively assist doctors in diagnosis and therapy. Precise and fast 3D scanners could become essential for measuring and analyzing dynamic scenes during robotic surgery, industrial inspection, autonomous navigation, or cultural heritage applications. Novel 3D display and eye-tracking methods could finally enable immersive AR/VR experiences. These are just a few examples. In midst of these seemingly endless possibilities, the knowledge about fundamental physical and information-theoretical limits in imaging proves to be a powerful tool: By knowing that our imaging device already operates at the physical limit (e.g., of resolution), we can avoid unnecessary effort and investments in better hardware such as faster detectors, or cameras with higher pixel resolution. Moreover, limits often appear as uncertainty products, making it possible to optimize our system towards a specific quantity (e.g., speed) by trading in information less critical for the respective application. Although the imaging device is essential in this optimization, the central role is assumed by the illumination, which serves as encoder of the desired information. In this talk, I will discuss the virtue of limits and merit of illumination modalities in computational 3D imaging systems using the examples of my research discussed above. Among other systems, I will introduce a novel method to image hidden objects through scattering media and around corners, and a ‘single-shot 3D camera’ for the motion-robust, precise, and dense 3D measurement of fast live scenes."
+  date: 4
+  month_year: March, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Foundational Geometric Vision and its Role in Modern 3D Data-Acquisition Methods"
+  speaker: Suryansh Kumar
+  speaker_image: suryansh_kumar.JPG
+  institution: Senior Researcher, CVL group at ETH Zurich
+  description:
+  summary: "In the coming decade, dense, detailed, and precise 3D data acquisition of objects or scenes is sure to become one of the most important problems in computer vision and industrial machine vision. Moreover, it can be helpful for a wide range of other cutting-edge scientific disciplines such as metrology, geometry processing, forensics, etc. Unfortunately, at present, we don't have a general-purpose vision algorithm or framework for dense 3D data acquisition to meet the required precision. In this talk, I will present a few of our recent ideas and algorithms showing how a mindful use of existing classical geometric ideas can help us get closer to the goal of high-fidelity 3D data acquisition from images or available depth-sensing modalities. Furthermore, the talk will briefly discuss the dense 3D data acquisition methods using an online robot system and its current challenges. To conclude, this talk will pivot around the blueprint of classical geometric vision ideas and how to use it to effectively exploit the strength of deep neural networks for more trustworthy 3D data acquisition."
+  date: 4
+  month_year: February, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Artificial Intelligence in Dermatology: Opportunities and Challenges"
+  speaker: Roxana Daneshjou
+  speaker_image: Roxana_Daneshjou.jpg
+  institution: Postdoc, Stanford School of Medicine
+  description:
+  summary: "The clinical practice of dermatology is visual in nature: physicians make decisions after either directly assessing the skin or viewing clinical photos.  Deep learning algorithms have the potential to streamline processes in dermatology and teledermatology. However, the development of generalizable and robust clinical algorithms will require diverse, high quality datasets. I will discuss our work in developing a deep learning algorithm for assessing photo quality in teledermatology. After completing initial in silico testing, we are translating this work from “bytes” to “bedside”.  Additionally, I will discuss the challenges for developing fair and robust algorithms in dermatology and what steps we can take to address these challenges."
+  date: 5
+  month_year: November, 2021
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Computational astronomical imaging: inference and sensing algorithms for future black hole observations"
+  speaker: He Sun
+  speaker_image: he_sun.jpeg
+  institution: Postdoc, Caltech
+  description:
+  summary: "Recent development in computational imaging has led to a series of great discoveries in astronomy, such as the first image of a black hole (M87*) acquired by the Event Horizon Telescope (EHT). In this talk, I will introduce two new computational imaging algorithms we have developed for advancing future black hole observations. First, I will introduce Deep Probabilistic Imaging: a novel variational inference algorithm that trains a deep generative model to quantify the uncertainty of a reconstructed image. This approach helps to better characterize the confidence of structures in a black hole reconstruction, leading to more reliable scientific interpretations. Second, I will present “cosense”, a physics-informed deep learning approach that jointly optimizes a telescope network design with an image reconstruction approach. This algorithm is currently being used to select new telescope locations for the next generation Event Horizon Telescope (ngEHT). I will also briefly show the general applications of these algorithms in other scientific imaging tasks, such as exoplanet discovery and MRI."
+  date: 1
+  month_year: October, 2021
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "One Photon at a Time: Compensating for Nonideal Electronics in LiDAR Imaging"
+  speaker: Joshua Rapp
+  speaker_image: joshua_rapp.jpg
+  institution: Research Scientist at Mitsubishi Electric Research Laboratories
+  description: 
+  summary: "Forming a digital image—with a conventional camera or computational imaging system—requires converting properties of light into a sequence of bits. The mechanisms transforming optical energy into digital signals can often be idealized or ignored, but problems such as quantization or saturation become noticeable when imaging at the limits of the sensors. One such example arises in the case of single-photon lidar, which aims to form 3D images from individual photon detections. In this talk, we consider two factors that prevent perfect recording of each photon arrival time with infinite precision: finite temporal quantization and missed detections during detector dead times. We show that incorporating nonidealities into our acquisition models significantly mitigate their effect on our ability to form accurate depth images."
+  date: 2
+  month_year: July, 2021
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Enabling an Image-Based Graphics Pipeline with Neural Radiance Fields"
+  speaker: Pratul Srinivasan
+  speaker_image: pratul_srinivasan.jpg
+  institution: Google Research
+  description: 
+  summary: Neural Radiance Fields (NeRFs) have recently emerged as an effective and simple solution for recovering 3D representations of complex objects and scenes from captured images. However, there is still a long way to go before we will be able to use NeRF-like representations of real-world content in graphics pipelines as easily as standard computer graphics representations of artist-designed content, such as textured triangle meshes. I will discuss and review NeRF, and then talk about some of our recent work towards extending NeRF to enable more of the functionality we expect from the 3D representations we use in computer graphics.
+  date: 4
+  month_year: June, 2021
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: "Digital Health and Wellbeing: Data-Driven and Human-Centered Personalized and Adaptive Assistant"
+  speaker: Professor Akane Sano
+  speaker_image: AkaneSano_003 - trimmed.JPG
+  institution: Assistant Professor at Rice University
+  description: 
+  summary: Imagine 24/7 rich human multimodal data could identify changes in physiology and behavior, and provide personalized early warnings to help you, patients, or clinicians for making better decisions or behavioral changes to support health and wellbeing. I will introduce a series of studies, algorithms, and systems we have developed for measuring, predicting, and supporting personalized health and wellbeing for clinical populations as well as people at increased risk of adverse events, including ongoing COVID-19 related projects. I will also discuss challenges, learned lessons, and potential future directions in digital health and wellbeing research.
+  date: 7
+  month_year: May, 2021
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: Differential Defocus in Cameras and Microscopes
+  speaker: Dr. Emma Alexander
+  speaker_image: EA.jpg
+  institution: Postdoc, UC Berkeley
+  description: 
+  summary: Image defocus provides a useful depth cue in computer vision, and can also be used to recover phase information in coherent microscopy. In a differential setting, both problems can be addressed by solving simple equations, known as Depth from Differential Defocus and the Transport of Intensity Equation. Relating these governing equations requires putting them on equal footing, so we'll look at the assumptions common to photography and microscopy applications, and go through a gentle introduction to coherence, light fields and Wigner Distribution Functions, and generalized phase. We'll show that depth from defocus can be seen as a special case of phase recovery, with a new interpretation of phase for incoherent settings.
+  date: 2
+  month_year: April, 2021
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
+- title: Can cameras really measure vital signs? Algorithms and systems for camera-based health monitoring in unconstrained settings.
+  speaker: Ewa Nowara
+  speaker_image: Ewa_Nowara_Picture.png
+  institution: PhD at Rice University
+  description: 
+  summary: Imagine when you looked at someone, you could see their heartbeat. A suite of techniques called imaging photoplethysmography has recently enabled contactless measurements of vital signs with cameras by leveraging small intensity changes in the skin caused by cardiac activity. Measuring vital signs remotely is advantageous in several applications, including virtual doctor appointments, especially relevant during a pandemic, as well as more comfortable sleep monitoring, or monitoring of prematurely born infants. However, the camera-based physiological signals are very weak and easily corrupted by varying illumination, video compression artifacts, and head motion. Therefore, most existing methods only work in controlled settings and fail in realistic applications. We developed a denoising deep learning algorithm based on convolutional attention networks that can faithfully recover physiological signals even from heavily corrupted videos. Moreover, our denoising algorithm can recover subtle waveform dynamics, previously not possible to measure with cameras. We also discuss how we can improve the performance of deep learning methods and avoid overfitting when training on very small and not diverse datasets.
+  date: 5
+  month_year: March, 2021
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
