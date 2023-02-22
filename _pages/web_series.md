@@ -1,11 +1,11 @@
 ---
 title: "Web Series"
 layout: webseries
-excerpt: "Visual Machines Group at UCLA."
+excerpt: "Computer Vision Seminars at UMD."
 sitemap: false
 permalink: /web_series/
 header:
-  og_image: /assets/images/webseries/presentation.png
+  og_image: ../assets/images/webseries/presentation.png
   
 ---
 

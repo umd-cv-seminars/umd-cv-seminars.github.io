@@ -1,7 +1,7 @@
 ---
 title: "Visit"
 layout: twoColumns
-excerpt: "Computer Vision at UMD"
+excerpt: "Computer Vision Seminars at UMD."
 sitemap: false
 permalink: /visit/
 ---

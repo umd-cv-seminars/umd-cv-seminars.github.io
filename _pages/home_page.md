@@ -4,7 +4,7 @@ layout: home
 sitemap: false
 permalink: /
 header:
-  overlay_image: /assets/images/umdcslogo.png
+  overlay_image: ../assets/images/umdcslogo.png
 
 excerpt: >
   <h4>Welcome to the UMD Computer Vision Seminars</h4><h5>Frequent talks given by students, researchers, faculty, and other guests.</h5>
@@ -14,7 +14,7 @@ head_scripts:
 <main role="main" class="container-fluid">
   <div class="row">
     <div class="col-md-12 image-wrapper">
-      <img src="/assets/images/website_chosen_square.png" class="img-responsive full-width" style="max-width: 1000%;">
+      <img src="../assets/images/website_chosen_square.png" class="img-responsive full-width" style="max-width: 1000%;">
       <div class="over-text d-none d-md-none d-lg-block">
 	  <div class="heading" style="color:white;">Welcome to the UMD Computer Vision Seminars</div>
 	  <div class="body-home" style="color:white">Frequent talks given by students, researchers, faculty, and other guests.
