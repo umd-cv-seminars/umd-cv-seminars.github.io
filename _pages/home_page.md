@@ -29,8 +29,8 @@ head_scripts:
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">News</div>
       
-	    <div class="heading-home padded-top">Apr 2022: UMD Computer Science Graduate Program Top Ranked</div>
-	    <div class="body-home">The Program Places 9th Amongst National Public Universities.<a style="color: purple;" href="https://www.cs.umd.edu/article/2022/04/cs-graduate-program-earns-high-us-news-rankings">UMD CS Article.</a></div>
+	    <div class="heading-home padded-top">Apr 2022: UMD Computer Science Graduate Program Top Ranked </div>
+	    <div class="body-home">The Program Places 9th Amongst National Public Universities. <a style="color: purple;" href="https://www.cs.umd.edu/article/2022/04/cs-graduate-program-earns-high-us-news-rankings">UMD CS Article.</a></div>
 
       <!-- more news here -->
 
@@ -38,7 +38,7 @@ head_scripts:
     </div>
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Helpful Links</div>
-      <div class="heading-home padded-top">TBD</div>
+      <div class="heading-home padded-top"><a style="color: purple;" href="https://www.cs.umd.edu/">UMD CS Homepage</a></div>
       <div class="body-home">ABC</div>
       <br>
     </div>

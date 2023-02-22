@@ -31,6 +31,6 @@ Signup [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ){:target="_blank"} to 
 
 @section
 [Warren Grundfest Lectures in Computational Imaging](http://visual.ee.ucla.edu/) <br> <br>
-[TUM Visual Computing Group: AI Lecture Series](https://niessner.github.io/TUM-AI-Lecture-Series/?fbclid=IwAR3qxbYd4ixlTqFzSPqUGXpJY9HnMjZaePsxt5e9cjKyc6sXQoiE6O4l7DE){:style="font-size: 20px"} <br> <br>
+[TUM Visual Computing Group: AI Lecture Series](https://niessner.github.io/TUM-AI-Lecture-Series/){:style="font-size: 20px"} <br> <br>
 [Seebelowtheskin Webinar Series](https://www.seebelowtheskin.org/webinars/?fbclid=IwAR3W-1DEcj9fsFLvNLx7z4XLhirhopqblno1YA-tx7QRmRWXqi-zqD5-cMc){:style="font-size: 20px"} <br> <br>
 [SPACE Lecture Series](https://sites.google.com/view/sps-space){:style="font-size: 20px"}
