@@ -20,7 +20,7 @@
     {% include_cached masthead.html %}
     <br> <br> <br> <br> <br>
     <div>
-      <img src="/assets/images/webseries/Lecture_Banner.jpeg" alt="Banner" style="width:100%; height:auto; margin-bottom:12px; opacity:0.5;">
+      <img src="/assets/images/webseries/presentation.png" alt="Banner" style="width:100%; height:auto; margin-bottom:12px; opacity:0.5;">
     </div>
     <div class="initial-content" style="margin:50px 100px;">
 
@@ -45,6 +45,7 @@
             {% for organizer in site.data.webseries_organizers %}
               <div class="col-sm-3" style="height:200px;">
                 <div style="border-radius:50%; width:125px; height:125px; text-align:center; margin:auto; overflow:hidden;">
+                  <!-- 😅 below could also just be _blank.png. same with line 71 -->
                   <img src="/assets/images/webseries/{{ organizer.image }}" style="overflow:hidden;">
                 </div>
                 <p style="text-align:center; font-weight:bold; padding-top:20px; margin-bottom: 0px;"> {{ organizer.name }} </p>

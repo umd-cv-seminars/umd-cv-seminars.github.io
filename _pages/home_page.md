@@ -4,7 +4,7 @@ layout: home
 sitemap: false
 permalink: /
 header:
-  overlay_image: ../assets/images/umdcslogo.png
+  overlay_image: ../assets/images/umdcs.png
 
 excerpt: >
   <h4>Welcome to the UMD Computer Vision Seminars</h4><h5>Frequent talks given by students, researchers, faculty, and other guests.</h5>
