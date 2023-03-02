@@ -38,8 +38,8 @@ head_scripts:
     </div>
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Helpful Links</div>
-      <div class="heading-home padded-top"><a style="color: purple;" href="https://www.cs.umd.edu/">UMD CS Homepage</a></div>
-      <div class="body-home">ABC</div>
+      <div class="heading-home padded-top"><a style="color: blue;" href="https://www.cs.umd.edu/">UMD CS Homepage</a></div>
+      <!-- <div class="body-home">Filler text</div> -->
       <br>
     </div>
   </div>
