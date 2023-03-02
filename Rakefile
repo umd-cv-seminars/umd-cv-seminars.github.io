@@ -48,6 +48,7 @@ task :preview do
     base.join("_includes"),
     base.join("_layouts"),
     base.join("_sass"),
+    # 3/2: do i need to delete _sass and _source? and add _pages?
     base.join("assets"),
     options["source"],
     :ignore => listen_ignore_paths(base, options),
